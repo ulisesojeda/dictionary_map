@@ -11,7 +11,7 @@ with the same keys and its values mapped.
 
 ### API
 ```python
-dict_map(func, value, deep);
+dict_map(func, value, deep)
 ```
 - `func`  
   Type *function*  
