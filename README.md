@@ -4,7 +4,7 @@ Dictionary Mapping
 =======================
 
 Apply a map-like function over a Python dictionary and return a new dictionary
-with the same keys and its values evaluated.
+with the same keys and its values mapped.
 
 ## Installation
 `$ pip install dict-map`
@@ -19,7 +19,7 @@ dict_map(func, value, deep);
 
 - `value`  
   Type *dictionary*  
-  Dictionary to mp
+  Dictionary to map
 
 - `deep`[False]  
   Type *Boolean*  
