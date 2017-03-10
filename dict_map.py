@@ -1,4 +1,4 @@
-def dict_map(func, obj, deep):
+def dict_map(func, obj, deep=False):
     keys = obj.keys()
     values = obj.values()
     func = func_wrapper(func)

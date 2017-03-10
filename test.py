@@ -24,6 +24,13 @@ class TestDictMap(unittest.TestCase):
         expected = {2:4, 3:9, 4:{5:25, 6:36}}
         self.assertEqual(actual, expected)
 
+    def test_default_deep(self):
+        value = {2:2, 3:3, 4:{5:5, 6:6}}
+        func = lambda x: x**2
+        actual = dict_map(func, value)
+        expected = {2:4, 3:9, 4:{5:5, 6:6}}
+        self.assertEqual(actual, expected)
+
     def test_string(self):
         value = {2:2, 3:3, 4:{5:5, 6:6}, 'key': 'key'}
         func = lambda x: x**2
