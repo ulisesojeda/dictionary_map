@@ -1,10 +1,5 @@
-|  **`Travis CI Status`**   |
-|-------------------|
-|[![Build Status](https://travis-ci.org/ulisesojeda/dictionary_map.svg?branch=master)](https://travis-ci.org/ulisesojeda/dictionary_map)|
-
-|  **`PyPi`**   |
-|-------------------|
-|[![PyPI version](https://badge.fury.io/py/dict-map.svg)](https://badge.fury.io/py/dict-map)|
+[![Build Status](https://travis-ci.org/ulisesojeda/dictionary_map.svg?branch=master)](https://travis-ci.org/ulisesojeda/dictionary_map) 
+[![PyPI version](https://badge.fury.io/py/dict-map.svg)](https://badge.fury.io/py/dict-map)
 Dictionary Mapping
 =======================
 
