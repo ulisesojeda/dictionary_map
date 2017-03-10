@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='dict_map',
-      version='0.2',
+      version='0.3',
       description='Map over a dictionary',
       classifiers=[
         'Development Status :: 4 - Beta',
