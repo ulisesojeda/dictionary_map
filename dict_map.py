@@ -8,10 +8,8 @@ def dict_map(func, obj, deep):
 
 def deep_func(func):
     def aux_func(value):
-        if type(value) is dict:
-            return dict_map(func, value, True)
-        else:
-            return func(value)
+        isDict = type(value) is dict
+        return dict_map(func, value, True) if isDict else func(value)
     return aux_func
 
 def func_wrapper(func):
